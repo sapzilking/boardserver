@@ -15,6 +15,9 @@
 * 게시글 등록 시퀀스
 <img width="948" alt="image" src="https://github.com/sapzilking/boardserver/assets/93430103/94863b7b-b6c8-4144-a003-378ca6608c38">
 
+* 게시글 검색 시퀀스
+<img width="960" alt="image" src="https://github.com/sapzilking/boardserver/assets/93430103/75a8c00d-5a96-4a66-bec0-4b3828a25387">
+
 
 # 프로그램 주요 기능
 * 회원
