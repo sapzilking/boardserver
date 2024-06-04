@@ -10,6 +10,12 @@
 # ERD(Entity Relationship Diagram)
 <img width="723" alt="erd" src="https://github.com/sapzilking/boardserver/assets/93430103/29f63628-1645-4657-9233-a4ea9ebaba96">
 
+
+# 시퀀스
+* 게시글 등록 시퀀스
+<img width="948" alt="image" src="https://github.com/sapzilking/boardserver/assets/93430103/94863b7b-b6c8-4144-a003-378ca6608c38">
+
+
 # 프로그램 주요 기능
 * 회원
   * 가입, 탈퇴
