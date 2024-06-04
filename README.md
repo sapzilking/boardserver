@@ -1,7 +1,7 @@
 # Board-Server
 
 # 사용기술
-* Java 17, Spring Boot 2.3, MyBatis, MySQL, Redis
+* Java 17, Spring Boot 3.3, MyBatis, MySQL, Redis
 
 
 # 성능테스트 툴
