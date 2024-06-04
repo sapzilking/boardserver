@@ -18,6 +18,19 @@
 * 게시글 검색 시퀀스
 <img width="960" alt="image" src="https://github.com/sapzilking/boardserver/assets/93430103/75a8c00d-5a96-4a66-bec0-4b3828a25387">
 
+# 코드 컨벤션
+|ID|기본규칙|추가규칙|예시|
+|------|---|---|---|
+|클래스|PascalCase||public class ProductDTO {}|
+|인터페이스|PascalCase|(Prefix)I|public interface IProductService {}|
+|패키지명|lowercase||package com.market.server.dto;|
+|열거형|PascalCase||public enum Status {}|
+|메소드|CamelCase||public void register()|
+|프로퍼티|CamelCase||private int accountId;|
+|전역변수|CamelCase||private String grade;|
+|지역변수|CamelCase||int idIndex;|
+|파라메터|CamelCase||public void login(String id)|
+|상수|UpperCase|SnakeCase|private static String LOGIN_ADMIN_ID;|
 
 # 프로그램 주요 기능
 * 회원
