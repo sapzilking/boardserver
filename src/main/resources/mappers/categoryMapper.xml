@@ -19,8 +19,4 @@
         DELETE FROM category
         WHERE id = #{id}
     </delete>
-
-
-
-
 </mapper>
