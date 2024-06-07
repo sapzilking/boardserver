@@ -8,6 +8,9 @@
         INSERT INTO post (name, isAdmin, contents, createTime, views, categoryId, userId, fileId, updateTime)
         VALUES (#{name}, #{isAdmin}, #{contents}, #{createTime}, #{views}, #{categoryId}, #{userId}, #{fileId},
                 #{updateTime})
+        <selectKey keyProperty="id" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
     </insert>
 
     <select id="selectMyPosts" resultType="com.fastcampus.boardserver.dto.PostDTO">
