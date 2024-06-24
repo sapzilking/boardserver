@@ -37,6 +37,9 @@ dependencies {
 
 	implementation 'software.amazon.awssdk:sns'
 	implementation platform('software.amazon.awssdk:bom:2.5.29')
+	implementation("com.slack.api:bolt:1.18.0")
+	implementation("com.slack.api:bolt-servlet:1.18.0")
+	implementation("com.slack.api:bolt-jetty:1.18.0")
 
 
 	compileOnly 'org.projectlombok:lombok'
